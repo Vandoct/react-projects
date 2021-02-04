@@ -1,0 +1,71 @@
+html {
+  box-sizing: border-box;
+  width: 500px;
+}
+
+body {
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  button {
+    height: fit-content;
+  }
+}
+
+.players {
+  display: flex;
+  overflow: auto;
+  white-space: nowrap;
+
+  p {
+    background: green;
+    padding: 30px;
+    margin: 10px;
+    border: 0 none;
+    border-radius: 100%;
+  }
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .divider {
+    width: 1px;
+    height: 200px;
+    border: 1px solid;
+  }
+
+  .team {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .item {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: green;
+      width: 50px;
+      height: 50px;
+      margin: 10px;
+      border: 0 none;
+      border-radius: 100%;
+    }
+  }
+}
+
+main {
+  button {
+    margin-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+  }
+}
